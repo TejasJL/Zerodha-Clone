@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 function SignupPage() {
   const [mobile, setMobile] = useState('');
 
-  // const handleGetOtp = () => {
+  //const handleGetOtp = () => {
   //   alert(`OTP sent to: +91${mobile}`);
   // };
 

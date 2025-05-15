@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom';
 function SignupPage() {
   const [mobile, setMobile] = useState('');
 
-  const handleGetOtp = () => {
-    alert(`OTP sent to: +91${mobile}`);
-  };
+  // const handleGetOtp = () => {
+  //   alert(`OTP sent to: +91${mobile}`);
+  // };
 
   return (
     <div className="signup-container">
@@ -15,7 +15,7 @@ function SignupPage() {
         <h1>Open a free demat and trading account online</h1>
         <p>Start investing brokerage free and join a community of 1.6+ crore investors and traders</p>
        {/* <Link to="/dashboard"> <button className="signup-btn">Go to Kite</button></Link> */}
-       <a href="http://localhost:3001/"><button className="signup-btn">Go to Kite</button></a>
+       <a href="https://zerodha-clone-1.vercel.app/"><button className="signup-btn">Go to Kite</button></a>
         
         <p className="track-text">Or track your existing application</p>
 
@@ -105,7 +105,7 @@ function SignupPage() {
       <footer className="footer">
         <h3>Open a Zerodha account</h3>
         <p>Simple and intuitive apps · ₹0 for investments · ₹20 for intraday and F&O trades.</p>
-        <button className="signup-btn">Go to Kite</button>
+        <a href="https://zerodha-clone-1.vercel.app/"><button className="signup-btn">Go to Kite</button></a>
       </footer>
     </div>
   );

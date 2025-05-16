@@ -58,7 +58,11 @@ A visually appealing **Zerodha Clone** — India's largest stock trading platfor
 
 ---
 
-## 👨‍💻 Author
-
+### 👤 Author
 **Tejas**  
-📧 [ftejas52@gmail.com](mailto:ftejas52@gmail.com)
+📧 [ftejas52@gmail.com](mailto:ftejas52@gmail.com)  
+
+💬 *For suggestions, collaboration, or just to connect — feel free to reach out via email.*  
+
+[![Email Me](https://img.shields.io/badge/Send%20Email-%F0%9F%93%A7%20ftejas52@gmail.com-ff512f?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ftejas52@gmail.com)
+

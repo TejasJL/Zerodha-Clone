@@ -12,36 +12,60 @@ code {
     monospace;
 }
 
-.nav-link{
-  margin-left:40px; 
-  
+/* Base navigation link styling for mobile: smaller spacing */
+.nav-link {
+  margin-left: 15px; 
 }
 
-a{
+/* Adjust navigation link styling on desktop viewports */
+@media (min-width: 768px) {
+  .nav-link {
+    margin-left: 40px; 
+  }
+}
+
+a {
   text-decoration: none;
 }
 
-
-
-#supportHero{
+#supportHero {
   background-color: rgb(130, 189, 22);
   color: white;
 }
 
-#supportWrapper{
+/* Support section layout: stacks vertically on mobile, row side-by-side on desktop */
+#supportWrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 0 150px;
+  margin: 0 20px; /* Small outer margins for mobile screens */
 }
 
-#supportHero input{
-  padding: 20px 50px;
+/* Adjust support wrapper layout for desktop viewports */
+@media (min-width: 992px) {
+  #supportWrapper {
+    flex-direction: row;
+    margin: 0 150px; /* Restores your original wide spacing on desktop */
+  }
+}
+
+/* Input search bars made responsive for thumb/touch sizing */
+#supportHero input {
+  padding: 15px 20px; /* Reduced excess padding on mobile */
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 10px;
   border: none;
-}
-#supportHero a{
-  color: white;
+  box-sizing: border-box;
 }
 
+@media (min-width: 768px) {
+  #supportHero input {
+    padding: 20px 50px;
+    font-size: 20px;
+  }
+}
+
+#supportHero a {
+  color: white;
+}

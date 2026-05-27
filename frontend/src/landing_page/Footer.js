@@ -5,14 +5,18 @@ function Footer() {
     <footer style={{ backgroundColor: "rgb(240,240,240)" }}>
       <div className="container border-top mt-5">
         <div className="row mt-5">
-          <div className="col-3">
-            <img src="media/images/logo.svg" style={{ width: "70%" }} />
+          
+          {/* Column 1: Logo & Copyright */}
+          <div className="col-12 col-sm-6 col-md-3 mb-4">
+            <img src="media/images/logo.svg" className="img-fluid mb-3" style={{ width: "70%" }} alt="Zerodha Logo" />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
-          <div className="col-3 ">
-            <p>Company</p>
+
+          {/* Column 2: Company */}
+          <div className="col-12 col-sm-6 col-md-3 mb-4">
+            <p className="fs-5 fw-medium">Company</p>
             <a href="">About</a>
             <br />
             <a href="">Products</a>
@@ -30,8 +34,10 @@ function Footer() {
             <a href="">Zerodha cares (CSR)</a>
             <br />
           </div>
-          <div className="col-3">
-            <p>Support</p>
+
+          {/* Column 3: Support */}
+          <div className="col-12 col-sm-6 col-md-3 mb-4">
+            <p className="fs-5 fw-medium">Support</p>
             <a href="">Contact</a><br />
             <a href="">Support portal</a><br />
             <a href="">Z-Connect blog</a><br />
@@ -39,8 +45,10 @@ function Footer() {
             <a href="">Downloads & resources</a>
             <br />
           </div>
-          <div className="col-3">
-            <p>Account</p>
+
+          {/* Column 4: Account */}
+          <div className="col-12 col-sm-6 col-md-3 mb-4">
+            <p className="fs-5 fw-medium">Account</p>
             <a href="">Open an account</a>
             <br />
             <a href="">Fund transfer</a>
@@ -49,6 +57,8 @@ function Footer() {
             <br />
           </div>
         </div>
+
+        {/* Disclaimer Section */}
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:

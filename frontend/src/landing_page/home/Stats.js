@@ -4,7 +4,7 @@ function Stats() {
   return (
     <div className="container p-3">
       <div className="row">
-        <div className="col-6 p-5">
+        <div className="col-12 col-md-6 p-5">
           <h1 className="mb-5 fs-2">Trust with confidence </h1>
           <h2 className="fs-4">Customer-first always</h2>
           <p className="text-muted">
@@ -30,7 +30,7 @@ function Stats() {
           </p>
         </div>
 
-        <div className="col-6 text-center p-5">
+        <div className="col-12 col-md-6 text-center p-5">
           <img src="media\images\ecosystem.png" style={{ width: "92%" }} />
 
           <div>

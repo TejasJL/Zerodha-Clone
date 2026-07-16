@@ -12,10 +12,10 @@ function LeftSection({
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-6 ">
+        <div className="col-12 col-md-6 text-center mb-4">
           <img src={imageURL} />
         </div>
-        <div className="col-6 p-5">
+        <div className="col-12 col-md-6 p-md-5 p-3">
           <h1>{productName}</h1>
           <p className="text-muted">{productDescription}</p>
           <div>

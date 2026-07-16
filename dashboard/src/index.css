@@ -841,3 +841,97 @@ hr {
 .action:hover {
   background-color: rgb(212, 212, 212);
 }
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  
+  .watchlist-container {
+    flex-basis: 100%;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .content {
+    flex-basis: 100%;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .topbar-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .indices-container {
+    flex-basis: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nifty, .sensex {
+    margin-bottom: 10px;
+  }
+
+  .menu-container {
+    flex-basis: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .menus {
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menus li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .table .data {
+    flex-direction: column;
+  }
+  
+  .data {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .data hr {
+    display: none;
+  }
+
+  .order-table table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .funds {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+

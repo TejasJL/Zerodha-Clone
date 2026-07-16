@@ -218,4 +218,46 @@
     background: #9b9b9b;
     color: #fff;
   }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      left: 5%;
+      height: auto;
+      padding-bottom: 20px;
+    }
   
+    .inputs {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .inputs fieldset {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .inputs fieldset input {
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .buttons div {
+      margin-top: 15px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .buttons .btn {
+      flex: 1;
+      text-align: center;
+      margin: 0 5px;
+    }
+  }
